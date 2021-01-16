@@ -1,0 +1,80 @@
+﻿<!doctype html>
+<html>
+<head design-width="375">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<title>Demo</title>
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/css.css" />
+<link rel="stylesheet" href="css/common.css" />
+<link rel="stylesheet" href="css/animate.min.css" />
+<script src="js/auto-size.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery.loading.min.js"></script>
+<link rel="stylesheet" href="/libs/jquery-confirm/css/jquery-confirm.css">
+<script src="/libs/jquery-confirm/js/jquery-confirm.js"></script>
+</head>
+<body>
+	<div class="mobile-wrap center">
+		<div class="head">
+			<h1>
+				<i class="lang_email_login">绑定邮箱</i>
+			</h1>
+			<span id="mzk_back" class="retu"></span>
+		</div>
+		<div class="prompt">
+			<p id="login_welcome_text">
+				首次邮箱登录，赠送VIP体验。
+			</p>
+		</div>
+		<div class="login">
+			<div class="login-form">
+				<div class="login-box">
+					<div class="login-ico">
+						<img src="img/19818_18x17.png" alt="">
+					</div>
+					<div class="login-input">
+						<div class="login-input-col">
+							<input type="text" name="mail_username" id="login_mail_username" placeholder="填写邮箱用户名">
+						</div>
+						<div class="login-input-sele">
+                                                    <select name="mail_ext" id="login_mail_ext"></select>
+						</div>
+					</div>
+				</div>
+				<div class="login-box">
+					<div class="login-ico">
+						<img src="img/1719d_14x20.png" alt="">
+					</div>
+					<div class="login-input">
+						<div class="login-input-pass">
+                                                    <input type="text" name="authcode" id="login_authcode" placeholder="填写邮箱验证码">
+						</div><button class="lang_get_email_auth_code" id="get_email_code">发送验证码</button>
+					</div>
+				</div>
+                                <div class="login-box">
+					<div class="login-ico">
+						<img src="img/19818_18x17.png" alt="">
+					</div>
+					<div class="login-input">
+						<div class="login-input-col">
+							<input type="text" name="reg_code" id="login_reg_code" placeholder="注册邀请码(可选)">
+						</div>
+						<div class="login-input-sele">
+						</div>
+					</div>
+				</div>
+				<div class="login-submit">
+					<button class="lang_login_button_text" id="submit_login">立即登录</button>
+				</div>
+				<div class="login-agreement">
+					<i class="lang_agree_and_reader">我已阅读并同意</i><a href="http://mzke.com/page/service" target="_blank">《<i class="lang_service_police">用户协议</i>》</a>和<a href="http://mzke.com/page/privacy" target="_blank">《<i class="lang_privacy_police">隐私协议</i>》</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+        <script src="js/main.js"></script>
+        <script src="js/login.js"></script>
+</body>
+</html>
